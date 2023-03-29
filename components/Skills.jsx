@@ -20,7 +20,7 @@ const Skills = () => {
         <h2 className='py-4'>Apa yang bisa saya lakukan</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='skill-card'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='flex flex-wrap gap-4 justify-center'>
               <div className='m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
@@ -30,7 +30,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='skill-card'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='flex flex-wrap gap-4 justify-center'>
               <div className='m-auto'>
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
@@ -40,7 +40,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='skill-card'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='flex flex-wrap gap-4 justify-center'>
               <div className='m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
@@ -60,7 +60,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='skill-card'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='flex flex-wrap gap-4 justify-center'>
               <div className='m-auto'>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
