@@ -44,19 +44,8 @@ const resume = () => {
         <div className='text-center py-4'>
           <h5 className='text-center text-blue-500 text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>PHP
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>CodeIgniter
-            <span className='px-2'>|</span>MQL
-            <span className='px-2'>|</span>Photoshop
-            <span className='px-2'>|</span>Ilustrator
-            <span className='px-2'>|</span>Google Ads
+          
+         Front-End Web Developer | HTML | CSS |  Tailwind | Javascript | PHP | Next JS | CodeIgniter | MQL | Photoshop | Ilustrator | Google Ads
 
           </p>
 
