@@ -27,7 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I created this website for hospitals that want their services to appear on the internet. This website has a doctor's schedule search feature and an appointment feature. This website also features a content management system to make it easier to manage articles and other content.
+            I created this website for hospitals that want their services to appear on the internet. This website has a doctor&apos;s schedule search feature and an appointment feature. This website also features a content management system to make it easier to manage articles and other content.
           </p>
 
           <a
@@ -55,7 +55,7 @@ const crypto = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> MySQL
               </p>
-          
+
             </div>
           </div>
         </div>
