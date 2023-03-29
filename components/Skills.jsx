@@ -50,11 +50,11 @@ const Skills = () => {
             </div>
           </div>
           <div className='skill-card'>
-            <div className='flex gap-4 justify-center items-center'>
-              <div className='m-auto'>
+            <div className='flex flex-wrap gap-4 justify-center'>
+              <div className=' '>
                 <Image src={CiImg} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col justify-center'>
                 <h3>CodeIgniter</h3>
               </div>
             </div>
