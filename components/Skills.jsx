@@ -21,30 +21,30 @@ const Skills = () => {
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
-              <div className='m-auto'>
+              <div className=''>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col justify-center'>
                 <h3>HTML</h3>
               </div>
             </div>
           </div>
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
-              <div className='m-auto'>
+              <div className=''>
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col justify-center'>
                 <h3>CSS</h3>
               </div>
             </div>
           </div>
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
-              <div className='m-auto'>
+              <div className=''>
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col justify-center'>
                 <h3>JavaScript</h3>
               </div>
             </div>
@@ -61,40 +61,40 @@ const Skills = () => {
           </div>
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
-              <div className='m-auto'>
+              <div className=''>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col justify-center'>
                 <h3>Tailwind</h3>
               </div>
             </div>
           </div>
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
-              <div className='m-auto'>
+              <div className=''>
                 <Image src={Photoshop} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Adobe Photoshop</h3>
+              <div className='flex flex-col justify-center'>
+                <h3>Photoshop</h3>
               </div>
             </div>
           </div>
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
-              <div className='m-auto'>
+              <div className=''>
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col justify-center'>
                 <h3>Github</h3>
               </div>
             </div>
           </div>
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
-              <div className='m-auto'>
+              <div className=''>
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col justify-center'>
                 <h3>Next</h3>
               </div>
             </div>

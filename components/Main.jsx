@@ -7,8 +7,8 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center px-8 '>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div className='bg-gradient-to-br from-indigo-900 to-slate-900 w-full md:py-48 rounded-3xl px-4 md:px-8 py-20'>
+      <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center'>
+        <div className='border border-solid border-indigo-800 w-full md:py-48 rounded-3xl md:px-8 py-10'>
           <p className='uppercase text-sm tracking-widest text-slate-500'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
