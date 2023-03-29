@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-indigo-900 via-slate-900 to-slate-900 text-white tracking-wide
+  }
+
+  p{
+  @apply text-slate-400
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+  
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply  rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-blue-500 hover:scale-105 duration-500 text-white
+  }
+
+  .section-subtitle {
+  @apply uppercase text-xl tracking-widest text-blue-500
+  }
+
+  .social-media-icon {
+  @apply rounded-full shadow-lg bg-indigo-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300
+  }
+
+  .social-media-icon-sidenavbar {
+  @apply rounded-full bg-slate-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300
+  }
+
+  .skill-card {
+  @apply p-4 md:p-6 shadow-xl bg-indigo-900 rounded-xl hover:scale-105 ease-in duration-300
+  }
+}
