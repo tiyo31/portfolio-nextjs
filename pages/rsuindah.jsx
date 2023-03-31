@@ -31,7 +31,7 @@ const crypto = () => {
           </p>
 
           <a
-            href='https:www.rsuindah.com/'
+            href='https//:www.rsuindah.com'
             target='_blank'
             rel='noreferrer'
           >
