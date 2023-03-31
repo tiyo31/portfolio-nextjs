@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import WebRSUIndahImg from '../public/assets/projects/website-rsuindah.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 const crypto = () => {
   return (
