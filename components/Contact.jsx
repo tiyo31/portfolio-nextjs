@@ -53,7 +53,7 @@ const Contact = () => {
                     rel='noreferrer'
                   >
                     <div className='social-media-icon'>
-                      <FaFacebook/>
+                      <FaFacebook />
                     </div>
                   </a>
                   <a
@@ -62,11 +62,11 @@ const Contact = () => {
                     rel='noreferrer'
                   >
                     <div className='social-media-icon'>
-                      <FaWhatsapp/>
+                      <FaWhatsapp />
                     </div>
                   </a>
 
-             
+
                   <Link href='/resume'>
                     <a>
                       <div className='social-media-icon'>
@@ -93,7 +93,7 @@ const Contact = () => {
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
-                      name='name'
+                      name='name' required
                     />
                   </div>
                   <div className='flex flex-col'>
