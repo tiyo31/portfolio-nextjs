@@ -19,6 +19,17 @@ const Skills = () => {
         </p>
         <h2 className='py-4'>Apa yang bisa saya lakukan</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='skill-card'>
+            <div className='flex flex-wrap gap-4 justify-center'>
+              <div className=''>
+                <Image src={NextJS} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col justify-center'>
+                <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+         
           <div className='skill-card'>
             <div className='flex flex-wrap gap-4 justify-center'>
               <div className=''>
@@ -89,16 +100,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='skill-card'>
-            <div className='flex flex-wrap gap-4 justify-center'>
-              <div className=''>
-                <Image src={NextJS} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col justify-center'>
-                <h3>Next</h3>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
